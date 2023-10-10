@@ -9192,6 +9192,7 @@ with self; {
       hash = "sha256-BNiF/Dd9RIluXqHE7DEPl5uwTy8YZYp+ek1Qn36Au4A=";
     };
     buildInputs = [ Test2Suite ];
+    propagatedBuildInputs = [ FileWhich ];
     meta = {
       description = "Check that a library is available for FFI";
       homepage = "https://metacpan.org/pod/FFI::CheckLib";
