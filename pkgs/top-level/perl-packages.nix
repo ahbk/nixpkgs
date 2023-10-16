@@ -24259,7 +24259,7 @@ with self; {
     };
   };
 
-  TestFileContents = buildPerlModule {
+  TestFileContents = buildPerlPackage {
     pname = "Test-File-Contents";
     version = "0.242";
     src = fetchurl {
