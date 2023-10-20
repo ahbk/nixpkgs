@@ -12955,6 +12955,7 @@ with self; {
       hash = "sha256-9YVLMcvOFjwz4mJN0jFODA2X4JRDcbcYjlkBuj9vpMk=";
     };
 
+    buildInputs = [ FileWhich ];
     propagatedBuildInputs = [ Inline ];
 
     # TODO: upgrade https://github.com/NixOS/nixpkgs/pull/89731
