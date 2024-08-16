@@ -271,7 +271,7 @@ in
     };
 
     services.phpfpm = {
-      phpPackage = pkgs.php81;
+      phpPackage = pkgs.php83;
       pools = mapAttrs' (hostName: cfg: (
         nameValuePair "invoiceplane-${hostName}" {
           inherit user;
